@@ -10,7 +10,7 @@ permissions:
       - file
 files:
   - source: ./
-    destination: /home/ubuntu/LT_repo
+    destination: /home/ubuntu/djangoAutoDeployTutorial
 #hooks:
 #  BeforeInstall:
 #    - location: scripts/beforeInstall.bash
