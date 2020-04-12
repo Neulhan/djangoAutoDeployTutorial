@@ -11,10 +11,8 @@ permissions:
 files:
   - source: ./
     destination: /home/ubuntu/djangoAutoDeployTutorial
-#hooks:
-#  BeforeInstall:
-#    - location: scripts/beforeInstall.bash
-#  AfterInstall:
-#    - location: scripts/afterInstall.bash
-#  AfterAllowTraffic:
-#    - location: scripts/afterAllowTraffic.bash
+hooks:
+  BeforeInstall:
+    - location: scripts/beforeInstall.bash
+  AfterInstall:
+    - location: scripts/afterInstall.bash
